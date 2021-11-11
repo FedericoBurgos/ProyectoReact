@@ -13,4 +13,52 @@
 .header{
   background-color: white;
   color: blue;
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+  
+  
+}
+
+.h1h{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.ulh{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.lih{
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 30px;
+  list-style: none;
+  
+}
+
+.homeView{
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.homeView h2{
+  font-size: 52px;
+  font-weight: 700;
+  color: red;
+}
+
+
+.homeView p{
+  color: gray;
+}
+
+
+.CartWidget{
+  font-size: 40px;
 }
