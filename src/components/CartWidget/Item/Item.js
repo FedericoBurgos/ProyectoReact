@@ -5,7 +5,7 @@ export const Item = ({prod}) => {
                 <div className="card-body">
                  <h3 className="card-title">{prod.name}</h3>
                  <p className="card-text">{prod.desc}</p>
-                 <button className="btn btn-primary">Agregar</button>
+                 <Link to={`/detail/${id}`} className="btn btn-primary">Ver mas</Link>
             </div>
             </article>
     )

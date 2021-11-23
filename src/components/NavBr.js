@@ -5,9 +5,9 @@ const NavBar = () => {
         <h1 className="h1h">Logo</h1>
         <nav>
             <ul className="ulh">
-                <li className="lih">Enlace 1 </li>
-                <li className="lih">Enlace 2 </li>
-                <li className="lih">Enlace 3 </li>
+                <li className="lih"><Link to="/">Inicio</Link> </li>
+                <li className="lih"><Link to="cart">Cart</Link></li>
+                <li className="lih"><Link to="productos">Productos</Link></li>
             </ul>
         </nav>
         <CartWidget/>
